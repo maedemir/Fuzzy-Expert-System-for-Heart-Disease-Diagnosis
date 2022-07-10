@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Health Care Fuzzy System</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+</head>
+<body>
+    <form action="/result" method="post">
+        <div class="form-container">
+            <div class="container top-container">
+                <div class="holder">
+                    <label for="chest_pain">Chest Pain</label>
+                    <input type="range" id="chest_pain" name="chest_pain" min="1" max="4" value="1" oninput="chest_pain_value.value = this.value">
+                    <output id="chest_pain_value">0</output>
+                </div>
+                <div class="holder">
+                    <label for="cholestrol">Cholestrol</label>
+                    <input type="range" id="cholestrol" name="cholestrol" min="0" max="600" value="0" oninput="cholestrol_value.value = this.value">
+                    <output id="cholestrol_value">0</output>
+                </div>
+                <div class="holder">
+                    <label for="ecg">ECG</label>
+                    <input type="range" id="ecg" name="ecg" min="-0.5" max="2.5" step="0.1" value="0" oninput="ecg_value.value = this.value">
+                    <output id="ecg_value">0</output>
+                </div>
+                <div class="holder">
+                    <label for="exercise">Exercise</label>
+                    <input type="range" id="exercise" name="exercise" min="0" max="1" value="0" oninput="exercise_value.value = this.value">
+                    <output id="exercise_value">0</output>
+                </div>
+                <div class="holder">
+                    <label for="thallium_scan">Thallium Scan</label>
+                    <input type="range" id="thallium_scan" name="thallium_scan" min="3" max="7" value="3" oninput="thallium_scan_value.value = this.value">
+                    <output id="thallium_scan_value">0</output>
+                </div>
+                <div class="holder">
+                    <label for="age">Age</label>
+                    <input type="range" id="age" name="age" min="0" max="100" value="0" oninput="age_value.value = this.value">
+                    <output id="age_value">0</output>
+                </div>
+            </div>
+            <div class="container">
+                <div class="holder">
+                    <label for="blood_pressure">Blood Pressure</label>
+                    <input type="range" id="blood_pressure" name="blood_pressure" min="0" max="350" value="0" oninput="blood_pressure_value.value = this.value">
+                    <output id="blood_pressure_value">0</output>
+                </div>
+                <div class="holder">
+                    <label for="blood_sugar">Blood Sugar</label>
+                    <input type="range" id="blood_sugar" name="blood_sugar" min="0" max="200" value="0" oninput="blood_sugar_value.value = this.value">
+                    <output id="blood_sugar_value">0</output>
+                </div>
+                <div class="holder">
+                    <label for="heart_rate">Heart Rate</label>
+                    <input type="range" id="heart_rate" name="heart_rate" min="0" max="600" value="0" oninput="heart_rate_value.value = this.value">
+                    <output id="heart_rate_value">0</output>
+                </div>
+                <div class="holder">
+                    <label for="old_peak">Old Peak</label>
+                    <input type="range" id="old_peak" name="old_peak" min="0" max="10" step="0.1" value="0" oninput="old_peak_value.value = this.value">
+                    <output id="old_peak_value">0</output>
+                </div>
+                <div class="holder">
+                    <label for="sex">Sex</label>
+                    <input type="range" id="sex" name="sex" min="0" max="1" value="0" oninput="sex_value.value = this.value">
+                    <output id="sex_value">0</output>
+                </div>
+            </div>
+        </div>
+        <div class="button-container">
+            <input class="submit_button" type="submit" value="Show Result">
+        </div>
+    </form>
+</body>
+</html>

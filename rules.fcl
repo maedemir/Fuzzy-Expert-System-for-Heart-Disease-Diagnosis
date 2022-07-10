@@ -1,0 +1,61 @@
+RULE 1: IF (age IS very_old) AND (chest_pain IS atypical_anginal) THEN health IS sick_4;
+RULE 2: IF (heart_rate IS high) AND (age IS old) THEN health IS sick_4;
+RULE 3: IF (sex IS male) AND (heart_rate IS medium) THEN health IS sick_3;
+RULE 4: IF (sex IS female) AND (heart_rate IS medium) THEN health IS sick_2;
+RULE 5: IF (chest_pain IS non_aginal_pain) AND (blood_pressure IS high) THEN health IS sick_3;
+RULE 6: IF (chest_pain IS typical_anginal) AND (heart_rate IS medium) THEN health IS sick_2;
+RULE 7: IF (blood_sugar IS true) AND (age IS mild) THEN health IS sick_3;
+RULE 8: IF (blood_sugar IS false) AND (blood_pressure IS very_high) THEN health IS sick_2;
+RULE 9: IF (chest_pain IS asymptomatic) OR (age IS very_old) THEN health IS sick_1;
+RULE 10: IF (blood_pressure IS high) OR (heart_rate IS low) THEN health IS sick_1;
+RULE 11: IF (chest_pain IS typical_anginal) THEN health IS healthy;
+RULE 12: IF (chest_pain IS atypical_anginal) THEN health IS sick_1;
+RULE 13: IF (chest_pain IS non_anginal_pain) THEN health IS sick_2;
+RULE 14: IF (chest_pain IS asymptomatic) THEN health IS sick_3;
+RULE 15: IF (chest_pain IS asymptomatic) THEN health IS sick_4;
+RULE 16: IF (sex IS female) THEN health IS sick_1;
+RULE 17: IF (sex IS male) THEN health IS sick_2;
+RULE 18: IF (blood_pressure IS low) THEN health IS healthy;
+RULE 19: IF (blood_pressure IS medium) THEN health IS sick_1;
+RULE 20: IF (blood_pressure IS high) THEN health IS sick_2;
+RULE 21: IF (blood_pressure IS high) THEN health IS sick_3;
+RULE 22: IF (blood_pressure IS very_high) THEN health IS sick_4;
+RULE 23: IF (cholestrol IS low) THEN health IS healthy;
+RULE 24: IF (cholestrol IS medium) THEN health IS sick_1;
+RULE 25: IF (cholestrol IS high) THEN health IS sick_2;
+RULE 26: IF (cholestrol IS high) THEN health IS sick_3;
+RULE 27: IF (cholestrol IS very_high) THEN health IS sick_4;
+RULE 28: IF (blood_sugar IS true) THEN health IS sick_2;
+RULE 29: IF (ecg IS normal) THEN health IS healthy;
+RULE 30: IF (ecg IS normal) THEN health IS sick_1;
+RULE 31: IF (ecg IS abnormal) THEN health IS sick_2;
+RULE 32: IF (ecg IS hypertrophy) THEN health IS sick_3;
+RULE 33: IF (ecg IS hypertrophy) THEN health IS sick_4;
+RULE 34: IF (heart_rate IS low) THEN health IS healthy;
+RULE 35: IF (heart_rate IS medium) THEN health IS sick_1;
+RULE 36: IF (heart_rate IS medium) THEN health IS sick_2;
+RULE 37: IF(heart_rate IS high) THEN health IS sick_3;
+RULE 38: IF(heart_rate IS high) THEN health IS sick_4;
+RULE 39: IF (exercise IS true) THEN health IS sick_2;
+RULE 40: IF (old_peak IS low) THEN health IS healthy;
+RULE 41: IF (old_peak IS low) THEN health IS sick_1;
+RULE 42: IF (old_peak IS terrible) THEN health IS sick_2;
+RULE 43: IF (old_peak IS terrible) THEN health IS sick_3;
+RULE 44: IF (old_peak IS risk) THEN health IS sick_4;
+RULE 45: IF (thallium_scan IS normal) THEN health IS healthy;
+RULE 46: IF (thallium_scan IS normal) THEN health IS sick_1;
+RULE 47: IF (thallium_scan IS medium) THEN health IS sick_2;
+RULE 48: IF (thallium_scan IS high) THEN health IS sick_3;
+RULE 49: IF (thallium_scan IS high) THEN health IS sick_4;
+RULE 50: IF (age IS young) THEN health IS healthy;
+RULE 51: IF (age IS mild) THEN health IS sick_1;
+RULE 52: IF (age IS old) THEN health IS sick_2;
+RULE 53: IF (age IS old) THEN health IS sick_3;
+RULE 54: IF (age IS very_old) THEN health IS sick_4;
+
+
+
+
+
+
+
