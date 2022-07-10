@@ -46,4 +46,10 @@ the degree of belongingness to its fuzzy set.
 
 note that crisp value also should be taken into account in the implementation phase.
 
-## 
+## Second step: Inference
+- to solve the problem, it is necessary to check the fuzzy output values obtained from the existing rules(see rules.py).
+It is called inference. For example, consider the following rules:
+
+If (age is old ) and (blood pressure is very high) then ( result is sick(s4))
+
+It simply says that if a person is old and has very high blood pressure, his heart disease is type 4.
