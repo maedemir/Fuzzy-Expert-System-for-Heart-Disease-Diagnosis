@@ -55,11 +55,12 @@ It is called inference. For example, consider the following rules:
 - It simply says that if a person is old and has very high blood pressure, his heart disease is type 4.
 Knowing the membership function for each parameter in a rule, we can simply calculate the fuzzy value of its output. 
 Note that to find the membership value of the output of a law, we need to apply MAX-MIN operations. that is: min=AND and max=OR.
-## THird step: defuzzification
+## Third step: defuzzification
 - In this step, with the help of inferences made, once again we return to the world of absolute values to get the output answer as an absolute value. There are also different methods for de-fuzzification. The most important and widely used method is the center of mass method that is calculated as below:
 <img width="359" alt="image" src="https://user-images.githubusercontent.com/72692826/178142827-5d4b2c62-e5c2-4aaa-847b-09cac7cd8a40.png">
 
 
 Please note that in some cases, more than 2 rules may be activated and may belong to several sets of values. In these cases, we must combine the obtained answers. For this, we apply OR operation to all of the answers(That is we find the MAX value amoung them). After we have combined the answer of all the rules, the center of mass is calculated.
 # Project description
+[CI_HW2.pdf](https://github.com/maedemir/Fuzzy-Expert-System-for-Heart-Disease-Diagnosis/files/9078938/CI_HW2.pdf)
 
