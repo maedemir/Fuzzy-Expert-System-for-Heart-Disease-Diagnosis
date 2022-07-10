@@ -41,4 +41,9 @@ Finally, the output determines whether or not a person is suffering from heart d
 - To solve the problem with the help of fuzzy logic, it is necessary to convert our values from crisp to fuzzy values(imprecise, relative).
 This is called Fuzzification. For this purpose, fuzzy sets are defined and according to their membership function, for each value I calculated
 the degree of belongingness to its fuzzy set.
-They have crisp values, the graph is not given, but they should be included in the project.
+- For this purpose, the membership functions of the required sets are in project description. for example here is the membership function for "Age" input:
+<img width="702" alt="image" src="https://user-images.githubusercontent.com/72692826/178142542-54897950-3a4f-4899-bad1-bd7b3da31537.png">
+
+note that crisp value also should be taken into account in the implementation phase.
+
+## 
