@@ -35,3 +35,10 @@ a man, and if it is one, it means that the patient is a woman.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Finally, the output determines whether or not a person is suffering from heart disease, which is explained in more detail below.
+
+# Implementation steps
+## First step: Fuzzification
+- To solve the problem with the help of fuzzy logic, it is necessary to convert our values from crisp to fuzzy values(imprecise, relative).
+This is called Fuzzification. For this purpose, fuzzy sets are defined and according to their membership function, for each value I calculated
+the degree of belongingness to its fuzzy set.
+They have crisp values, the graph is not given, but they should be included in the project.
