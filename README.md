@@ -62,5 +62,6 @@ Note that to find the membership value of the output of a law, we need to apply 
 
 Please note that in some cases, more than 2 rules may be activated and may belong to several sets of values. In these cases, we must combine the obtained answers. For this, we apply OR operation to all of the answers(That is we find the MAX value amoung them). After we have combined the answer of all the rules, the center of mass is calculated.
 # Project description
-[CI_HW2.pdf](https://github.com/maedemir/Fuzzy-Expert-System-for-Heart-Disease-Diagnosis/files/9078938/CI_HW2.pdf)
+[CI_project2.pdf](https://github.com/maedemir/Fuzzy-Expert-System-for-Heart-Disease-Diagnosis/files/9078940/CI_project2.pdf)
+
 
