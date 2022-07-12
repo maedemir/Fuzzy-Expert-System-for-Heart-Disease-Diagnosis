@@ -44,7 +44,7 @@ the degree of belongingness to its fuzzy set.
 - For this purpose, the membership functions of the required sets are in project description. for example here is the membership function for "Age" input:
 <img width="702" alt="image" src="https://user-images.githubusercontent.com/72692826/178142542-54897950-3a4f-4899-bad1-bd7b3da31537.png">
 
-note that crisp value also should be taken into account in the implementation phase.
+note that crisp values also should be taken into account in the implementation phase.
 
 ## Second step: Inference
 - to solve the problem, it is necessary to check the fuzzy output values obtained from the existing rules(see rules.py).
