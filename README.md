@@ -67,7 +67,8 @@ Please note that in some cases, more than 2 rules may be activated and may belon
 # How to run the project
 - To install the requirements and used libraries, first enter the main directory and then install the requirements using the pip install -r requirements.txt command. Then easily run app.py ( it's on port 8448. do not change it)
 
+```
+pip install -r requirements.txt
+python3 app.py
 
-
-- [ ] (for unchecked checkbox)
-- [x] (for checked checkbox)
+```
